@@ -228,7 +228,7 @@ h2 {
     background: var(--color-light-grey) 0% 0% no-repeat padding-box;
     opacity: 1;
     text-align: center;
-    padding-top: 105px;
+    padding: 105px 0;
 }
 
 .benefits_container {
@@ -323,4 +323,145 @@ h2 {
 
 /*SECTION: BENEFITS: CLOSE*/
 
+/*SECTION: PRICING */
+
+.section-pricing {
+    width: 100%;
+    background-color: var(--color-white);
+    padding-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-pricing h2 {
+    text-align: center;
+}
+
+.pricing_boxes {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    height: 550px;
+    width: 1266px;
+}
+
+.pricing_box {
+    text-align: center;
+    padding-top: 34px;
+    padding-bottom: 80px;
+    border-radius: 18px;
+    opacity: 1;
+    font: normal normal normal 14px/41px Open Sans;
+    letter-spacing: 0;
+    color: var(--color-black);
+    width: 372px;
+    height: 461px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing_box2 {
+    width: 405px;
+    height: 500px;
+}
+
+.pricing_box1 {
+    border: 1px solid #FB3B64;
+}
+
+.pricing_box2 {
+    box-shadow: 5px 10px 27px #07ACE629;
+    border: 1px solid #07ACE6;
+}
+
+.pricing_box3 {
+    border: 1px solid #55DFB4;
+}
+
+.pricing_box .title {
+    font: normal normal bold 20px Raleway;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    opacity: 1;
+    margin-bottom: 25px
+}
+
+.pricing_box2>.title {
+    font-size: 21px;
+}
+
+.pricing_box>.price {
+    font: normal normal 300 46px Open Sans;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+
+.pricing_box1 .price {
+    color: var(--color-redish);
+    margin-bottom: 60px;
+}
+
+.pricing_box2 .price {
+    color: var(--color-primary);
+}
+
+.pricing_box3 .price {
+    color: var(--color-green);
+}
+
+.pricing_box .data {
+    font: normal normal normal 14px Open Sans;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    opacity: 1;
+}
+
+.limited {
+    font: normal normal bold 12px/1px Raleway;
+    letter-spacing: 0px;
+    color: #13253B;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+
+.data {
+    margin-bottom: 20px;
+}
+
+.pricing_box a {
+    font: normal normal bold 13px Open Sans;
+    letter-spacing: 0px;
+    opacity: 1;
+    background: 0% 0% no-repeat padding-box;
+    border-radius: 23px;
+    opacity: 1;
+    align-self: center;
+    height: 50px;
+    width: 150px;
+    text-align: center;
+    color: var(--color-white);
+    text-decoration: none;
+    padding: 16px 57px;
+    position: relative;
+    transform: translate(0, 26px);
+}
+
+.pricing_box1 a {
+    background-color: var(--color-redish);
+}
+
+.pricing_box2 a {
+    background-color: var(--color-primary);
+    width: 165px;
+    padding: 16px 64px;
+    position: relative;
+    transform: translate(0, 63px);
+}
+
+.pricing_box3 a {
+    background-color: var(--color-green);
+}
 
