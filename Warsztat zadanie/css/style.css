@@ -77,3 +77,181 @@ html, body {
 
 /*HEADER: CLOSE*/
 
+/*SECTION: OPENING*/
+
+.section-opening {
+    width: 100%;
+    height: calc(712px + 130px);
+    background-image: url("../assets/Background.png");
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.section-opening h1 {
+    padding-top: 130px;
+    text-align: center;
+    font: normal normal normal 49px/57px Raleway;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    opacity: 1;
+}
+
+p {
+    display: block;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 60px;
+    margin-top: 20px;
+}
+
+.section-opening p {
+    text-align: center;
+}
+
+.section-opening a {
+    box-sizing: border-box;
+    background: #08A6E4 0% 0% no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    opacity: 1;
+    padding: 22px 157px;
+    text-decoration: none;
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0px;
+    color: var(--color-white);
+    opacity: 1;
+}
+
+/*SECTION: OPENING: CLOSE*/
+
+/*SECTION: STATISTICS*/
+
+.section-statistics {
+    text-align: center;
+    padding-top: 100px;
+}
+
+.section-statistics h2 {
+    text-align: center;
+}
+
+h2 {
+    font: normal normal normal 36px/42px Raleway;
+    letter-spacing: 0px;
+    color: var(--color-black);
+    opacity: 1;
+}
+
+.section-statistics_columns {
+    width: 700px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.section-statistics_column {
+    position: relative;
+    height: 170px;
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.section-statistics_column>* {
+    flex-shrink: 0;
+}
+
+.column_number {
+    text-align: center;
+    font: normal normal 800 20px/24px Raleway;
+    letter-spacing: 5.96px;
+    color: var(--color-black);
+    opacity: 1;
+}
+
+.column_desc {
+    text-align: center;
+    font: normal normal normal 16px/19px Raleway;
+    letter-spacing: 0px;
+    color: var(--color-grey);
+    opacity: 1;
+}
+
+.circle {
+    height: 63px;
+    width: 63px;
+    border-radius: 50%;
+    position: absolute;
+    top: 3px;
+    left: 50%;
+    transform: translate(-31.5px,0);
+    z-index: 0;
+}
+
+.first_circle {
+    background-color: var(--color-redish);
+}
+
+.second_circle {
+    background-color: var(--color-primary);
+}
+
+.third_circle {
+    background-color: var(--color-green);
+}
+
+.column_img {
+    position: relative;
+    z-index: 1;
+}
+
+.column_img img {
+    margin: auto;
+    transform: translate(20px,0);
+}
+
+/*SECTION: STATISTICS: CLOSE*/
+
+/*SECTION: BENEFITS*/
+
+.section-benefits {
+    background: var(--color-light-grey) 0% 0% no-repeat padding-box;
+    opacity: 1;
+    text-align: center;
+    padding-top: 105px;
+}
+
+.benefits_container {
+    width: 1124px;
+    margin: auto;
+}
+
+.benefits_box {
+    height: 370px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.benefits_box1, .benefits_box2 {
+    background-color: var(--color-white);
+}
+
+.box_img {
+    box-sizing: border-box;
+    height: 370px;
+    width: 440px;
+}
+
+.box_img>img {
+}
