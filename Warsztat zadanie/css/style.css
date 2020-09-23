@@ -44,7 +44,7 @@ html, body {
     align-items: center;
 }
 
-.header_logo {
+.logo {
     text-align: left;
     font: normal normal 300 32px/37px Raleway;
     letter-spacing: 0px;
@@ -634,4 +634,54 @@ h2 {
 }
 
 /*CONTACT: CLOSE*/
+
+/*FOOTER*/
+
+.footer {
+    width: 100%;
+    margin: auto;
+    height: 89px;
+    background: #F7F7F7 0% 0% no-repeat padding-box;
+    box-shadow: 0px -5px 40px #00000029;
+    opacity: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer_logo {
+    margin: 20px 0 17px 137px;
+}
+
+.footer_logo_img {
+    font-size: 26px;
+}
+
+.footer_logo_text {
+    text-align: left;
+    font: normal normal normal 11px/15px Open Sans;
+    letter-spacing: 0px;
+    color: var(--color-grey);
+    opacity: 1;
+}
+
+.footer_social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 136px 30px 0;
+}
+
+.footer_social a:first-child {
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/Twitter.svg");
+    margin-right: 20px;
+}
+
+.footer_social a:nth-child(2) {
+    width: 24px;
+    height: 24px;
+    background-image: url("../assets/Facebook.svg");
+}
 
