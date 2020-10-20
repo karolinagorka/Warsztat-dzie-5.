@@ -1,0 +1,29 @@
+{
+  "name": "Warsztat zadanie",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karolinagorka/WAR_FER_W_33_Zaawansowany_HTML_i_CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karolinagorka/WAR_FER_W_33_Zaawansowany_HTML_i_CSS/issues"
+  },
+  "homepage": "https://github.com/karolinagorka/WAR_FER_W_33_Zaawansowany_HTML_i_CSS#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.13",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^7.0.1",
+    "gulp-sourcemaps": "^2.6.5"
+  },
+  "dependencies": {
+    "gulp-cli": "^2.3.0"
+  }
+}
